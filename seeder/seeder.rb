@@ -8,8 +8,6 @@ pages <<{
         'accept-encoding'=> 'gzip, deflate, br',
         'accept-language'=> 'en-US,en;q=0.9',
         'accept'=> 'application/json, text/plain, */*',
-        'referer'=> 'https://www.tokopedia.com/p/laptop-aksesoris/laptop',
-        'authority'=> 'ace.tokopedia.com'
     },
     driver: {
         code: "await sleep(3000);",
