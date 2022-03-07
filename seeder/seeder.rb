@@ -8,6 +8,7 @@ pages <<{
         'accept-encoding'=> 'gzip, deflate, br',
         'accept-language'=> 'en-US,en;q=0.9',
         'accept'=> 'application/json, text/plain, */*',
+        "Access-Control-Allow-Origin" => "*",
     },
     driver: {
         code: "await sleep(3000);",
