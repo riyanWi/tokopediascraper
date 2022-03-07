@@ -4,12 +4,17 @@ pages <<{
     page_type: "listings",
     method: "GET",
     headers: {
-        "User-Agent" => "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        'origin'=> 'https://www.tokopedia.com',
+        'accept-encoding'=> 'gzip, deflate, br',
+        'accept-language'=> 'en-US,en;q=0.9',
+        'accept'=> 'application/json, text/plain, */*',
+        'referer'=> 'https://www.tokopedia.com/p/laptop-aksesoris/laptop',
+        'authority'=> 'ace.tokopedia.com'
     },
     driver: {
         code: "await sleep(3000);",
         goto_options: {
             "waitUntil": "domcontentloaded"
         }
-  }
+    }
 }
